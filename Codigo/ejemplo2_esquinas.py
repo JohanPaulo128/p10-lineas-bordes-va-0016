@@ -42,12 +42,12 @@ resultado[esquinas > umbral] = [0, 0, 255]
 
 # Mostrar resultados
 cv2.imshow(
-    "Imagen original",
+    "Imagen original NC 0016",
     imagen
 )
 
 cv2.imshow(
-    "Esquinas detectadas",
+    "Esquinas detectadas NC 0016",
     resultado
 )
 
